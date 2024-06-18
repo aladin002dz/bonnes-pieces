@@ -2,7 +2,7 @@ import { addListenerAvis } from "./avis.js";
 
 
 // const productsFile = "../../pieces-autos.json";
-const productsFile = './api-http/pieces-autos.json';
+const productsFile = './api/pieces-autos.json';
 
 //Fetching Datas
 async function getDatas(dataFile) {
