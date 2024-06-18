@@ -1,42 +1,51 @@
 <!DOCTYPE html>
 <html lang="fr">
-	<head>
-		<meta charset="utf-8">
-		<title>Les Bonnes Pièces</title>
-		<link rel="stylesheet" href="../assets/css/styles.css">
-		
-	</head>
-	<body>
 
-		<header>
-			<img src="../assets/images/logo-les-bonnes-pieces.png" alt="Logo du truc">
-			<h1>Les Bonnes Pièces</h1>
-		</header>
+<head>
+	<meta charset="utf-8">
+	<title>Les Bonnes Pièces</title>
+	<link rel="stylesheet" href="./assets/css/styles.css">
 
-		<main class="wrapper">
-			<!-- Menu de recherche -->
-			<section class="filtres">
-				<h3>Filtres</h3>
-				<button class="btn btn-order-price" type="button" title="Produits avec Prix croissant">Trier par prix croissant</button>
-				<button class="btn btn-desorder-price" type="button" title="Produits avec Prix décroissant">Trier par prix décroissant</button>
-				<button class="btn btn-filter-price" type="button" title="Produits Prix Inférieurs à 35 euros">Filtrer les pièces abordables</button>
-				<button class="btn btn-get-desc" type="button" title="Produits avec Description">Filtrer les pièces avec description</button>
-				<button class="btn btn-get-stock" type="button" title="Produits avec Stock">Filtrer les pièces avec stock</button>
+</head>
 
-				<!-- <button class="btn btn-get-product-lower-price" type="button" title="prix croissant">Afficher les noms des pièces abordables</button>
+<body>
+
+	<header>
+		<img src="./assets/images/logo-les-bonnes-pieces.png" alt="Logo du truc">
+		<h1>Les Bonnes Pièces</h1>
+	</header>
+
+	<main class="wrapper">
+		<!-- Menu de recherche -->
+		<section class="filtres">
+			<h3>Filtres</h3>
+			<button class="btn btn-order-price" type="button" title="Produits avec Prix croissant">Trier par prix
+				croissant</button>
+			<button class="btn btn-desorder-price" type="button" title="Produits avec Prix décroissant">Trier par prix
+				décroissant</button>
+			<button class="btn btn-filter-price" type="button" title="Produits Prix Inférieurs à 35 euros">Filtrer les
+				pièces abordables</button>
+			<button class="btn btn-get-desc" type="button" title="Produits avec Description">Filtrer les pièces avec
+				description</button>
+			<button class="btn btn-get-stock" type="button" title="Produits avec Stock">Filtrer les pièces avec
+				stock</button>
+
+			<!-- <button class="btn btn-get-product-lower-price" type="button" title="prix croissant">Afficher les noms des pièces abordables</button>
 				<button class="btn btn-get-product-dispo" type="button" title="prix croissant">Afficher les noms des pièces disponibles</button> -->
-				<input type="range" name="ranged-price" class="btn btn-filter-range-price" id="ranged" min="0" max="50" step="5" title="Produit par tranche de prix">
+			<input type="range" name="ranged-price" class="btn btn-filter-range-price" id="ranged" min="0" max="50"
+				step="5" title="Produit par tranche de prix">
 
-			</section>
+		</section>
 
-			<!-- Fiches produits -->
-			<section class="fiches">
-				<div class="filter-name">Tout les produits</div>
-				<div class="displayed-datas"></div>
-			</section>
-		</main>
-		
-	</body>
+		<!-- Fiches produits -->
+		<section class="fiches">
+			<div class="filter-name">Tout les produits</div>
+			<div class="displayed-datas"></div>
+		</section>
+	</main>
 
-	<script type="module" src="../assets/scripts/pieces.js"></script>
+</body>
+
+<script type="module" src="./assets/scripts/pieces.js"></script>
+
 </html>
